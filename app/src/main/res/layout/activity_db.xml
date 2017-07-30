@@ -61,12 +61,18 @@
             android:layout_height="wrap_content"
             android:id="@+id/tag5"
             android:text="TAG 5"/>
+           <EditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="YYYY-MM-DD"
+               android:id="@+id/date_field"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/saveButton"
             android:text="SAVE"
             android:onClick="store"/>
+
 
          </LinearLayout>
 
